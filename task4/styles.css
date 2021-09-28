@@ -1,0 +1,14 @@
+.text{
+    margin:16px;
+    border-bottom: 1px dotted black;
+    position: absolute;
+}
+.tooltip{
+    display: block;
+    background-color: grey;
+    color: white;
+    border-radius: 4px;
+    padding: 8px;
+    position: absolute;
+    bottom: -40px;
+}
