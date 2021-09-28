@@ -6,7 +6,7 @@
   position: absolute;
 }
 .menu-button {
-  position: relative;
+  
   top: 16px;
   padding: 16px;
   background-color: darkgreen;
@@ -23,7 +23,7 @@
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
   min-width: 120px;
   position: absolute;
-  top: 48px;
+  top: 33px;
   z-index: 1;
   list-style-type: none;
 }
@@ -39,4 +39,5 @@
 }
 .menu-item:hover {
   background-color: ghostwhite;
+  cursor: pointer;
 }
