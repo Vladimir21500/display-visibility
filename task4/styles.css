@@ -4,11 +4,14 @@
     position: absolute;
 }
 .tooltip{
-    display: block;
+    display: none;
     background-color: grey;
     color: white;
     border-radius: 4px;
     padding: 8px;
     position: absolute;
     bottom: -40px;
+}
+.text:hover .tooltip{
+    display: block;
 }
